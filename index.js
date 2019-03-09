@@ -48,8 +48,10 @@ function total() {
 
 
 function removeFromCart(item) {
-
-   return "That item is not in your cart."
+  for (let i=0; i<cart.length; i++) {
+    
+  }
+  return "That item is not in your cart."
 };
 
 function placeOrder(cardNumber) {
