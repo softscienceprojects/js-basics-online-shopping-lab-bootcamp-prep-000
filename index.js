@@ -49,9 +49,9 @@ function total() {
 
 function removeFromCart(item) {
   for (var i=0; i<cart.length; i++) {
-    if (cart[i]['itemName'] == item ){
+    if (cart[i].itemName == item ){
       var removed = cart.splice(cart.length-1, 1);
-    } return "yams"
+    } return removed
   } return "That item is not in your cart."
 };
 
