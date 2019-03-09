@@ -53,7 +53,7 @@ function total() {
 //       if (property1 === item) {
 //         cart.splice(i, 1);
 //       } return cart
-//     } 
+//     }
 //   } return "That item is not in your cart."
 // };
 
